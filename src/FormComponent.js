@@ -24,7 +24,7 @@ const FormComponent = ({ onSubmit }) => {
   return (
     <View style={styles.container}>
       <TextInput
-        placeholder="First Name"
+        placeholder="First Ashok"
         value={formData.firstName}
         onChangeText={(text) => handleChange('firstName', text)}
         style={styles.input}
